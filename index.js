@@ -1,1 +1,2 @@
-console.log('hello from javascript!');
+var datetime = moment().startOf('day').fromNow();
+console.log(datetime);
